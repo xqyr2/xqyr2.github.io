@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background: url(https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109181237585.jpg);
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: url(https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109181237585.jpg);
 }
 
 .text-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: url(https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109181237585.jpg);
     opacity: 0.8;
 }
 
