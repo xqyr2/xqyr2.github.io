@@ -256,20 +256,20 @@ body {
 #menu-box {
     display: none;
     width: 100%;
-    background: rgb(241, 1, 1);
+    background: #081B2A;
     text-align: right;
     position: sticky;
     top: 0;
     z-index: 2;
-    box-shadow: 1px 1px 8px #e20ddf;
-    height: 50px
+    box-shadow: 1px 1px 8px #081B2A;
+    height: 2px
 }
 
 #menu-box #menu {
-    height: 50px;
+    height: 0px;
     width: 40px;
     position: absolute;
-    right: 10px
+    right: 2px
 }
 
 #menu-box #menu * {
@@ -312,7 +312,7 @@ body {
     position: absolute;
     height: 4px;
     width: 100%;
-    background-color: #eb0e0e
+    background-color: #081B2A
 }
 
 #menu-box #menu label .horizontal {
@@ -343,7 +343,7 @@ body {
 }
 
 #fixedBar svg {
-    color: #e01818
+    color: #081B2A
 }
 
 @media screen and (max-width: 481px) {
