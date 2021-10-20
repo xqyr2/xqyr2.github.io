@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://example.com/2021/09/29/10113.html</loc>
+    <lastmod>2021-10-18</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/10/11/16575.html</loc>
+    <lastmod>2021-10-18</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/09/29/36547.html</loc>
+    <lastmod>2021-09-29</lastmod>
+  </url>
+  <url>
     <loc>http://example.com/2021/09/25/25118.html</loc>
-    <lastmod>2021-09-27</lastmod>
+    <lastmod>2021-09-29</lastmod>
   </url>
   <url>
     <loc>http://example.com/2021/08/14/18371.html</loc>
