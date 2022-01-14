@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <title>小熊的聚合网站</title>
-    <link rel="shortcut icon" href="favcion.ico"/>
+    <link rel="shortcut icon" href="favicon.png"/>
     <link rel="stylesheet" href=" css/iconfont.css"/>
     <link rel="stylesheet" href="../plug-in/normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -16,7 +16,7 @@
     <aside class="left-bar" id="leftBar">
         <div class="profile-block text-center">
             <a id="avatar" href="\" target="_blank">
-                <img class="img-circle img-rotate" src="logo.png" width="110"
+                <img class="img-circle img-rotate" src="https://xqyr2.github.io/favicon.png" width="110"
                      height="110">
             </a>
             <h2 id="name" class="hidden-xs hidden-sm">小憩悠然</h2>
@@ -39,11 +39,11 @@
                 <li><a href="#whdk">我会点开</a></li>
                 <li><a href="#zyxz">资源下载</a></li>
                 <li><a href="#operation"></i>图片视频</a></li>
-                
                 <li><a href="#cxy">聚合网站</a></li>
-                <div class="search-box">
+                <div  class="search-box" id="searchbox">
                     <input class="search-txt" type="text" placeholder="搜索" />
-                    <a class="search-btn" href="baidu.com/%s">
+                    <a class="search-btn" >
+                        <form action="http://www.baidu.com/baidu" target="_blank">
                         <i class="fas fa-search"></i>
                     </a>
                 </div>
@@ -56,17 +56,6 @@
  
     <section class="main">
         <div id="mainContent">
-            <!-- 手机端菜单 -->
-            <div id="menu-box">
-                <div id="menu">
-                    <input type="checkbox" id="menu-form"/>
-                    <label for="menu-form" class="menu-spin">
-                        <div class="line diagonal line-1"></div>
-                        <div class="line horizontal"></div>
-                        <div class="line diagonal line-2"></div>
-                    </label>
-                </div>
-            </div>
             <!-- 常用专区 -->
             <div class="box">
                 <a href="#" name="hfl"></a>
@@ -74,7 +63,8 @@
                     <div>常用专区</div>
                 </div>
                 <div>
-                    <a target="_blank" href="https://tophub.today/">
+                    <div class="item">
+                    <a target="_blank" href="https://tophub.today">
                         <div class="item">
                             <div class="logo">
                                 <img src="img/toutiao.jpg" alt="toutioa"/> 今日热榜
@@ -84,6 +74,14 @@
                             </div>
                         </div>
                     </a>
+                    <a target="_blank" href="https://tophub.today/n/Ywv41YMdPa">
+                        <div class="item">
+                            <div class="logo">
+                                <img src="img/toutiao.jpg" alt="toutioa"/> 吾爱破解
+                            </div>
+                        </div>
+                    </a>
+                </div>
                     <div class="item">
                     <a target="_blank" href="https://www.chongbuluo.com/">
                         <div class="item">
@@ -121,6 +119,7 @@
                             </div>
                         </div>
                     </a>
+                    <div class="item">
                     <a target="_blank" href="https://www.bilibili.com/">
                         <div class="item">
                             <div class="logo">
@@ -132,6 +131,21 @@
                             </div>
                         </div>
                     </a>
+                    <a target="_blank" href="https://www.bilibili.com/video/BV1u4411B7Fo?p=5">
+                        <div class="item">
+                            <div class="logo">
+                                <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.bilibili.com/" alt="cbl"/> ANSYS
+                            </div>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://www.bilibili.com/video/BV1Bt41187hw?spm_id_from=333.999.0.0">
+                        <div class="item">
+                            <div class="logo">
+                                <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.bilibili.com/" alt="cbl"/> 单片机
+                            </div>
+                        </div>
+                    </a>
+                    </div>
                 </div>
             </div>
             <!-- 学习网站 -->
@@ -447,7 +461,7 @@
                             <div class="item">
                                 <div class="logo">
                                     <img src="https://z3.ax1x.com/2021/10/22/5ct52q.png" alt="cbl"/>
-                                音乐免费下载
+                                音乐下载
                                 </div>   
                             </div>
                         </a>
@@ -455,6 +469,14 @@
                             <div class="item">
                                 <div class="logo">
                                     <img src="https://pan.gimhoy.com/favicon.ico" alt="cbl"/>
+                                音乐下载
+                                </div>   
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://tool.liumingye.cn/music/?page=searchPage">
+                            <div class="item">
+                                <div class="logo">
+                                    <img src="https://tools.ly522.com/ico/favicon.php?url=http://tool.liumingye.cn/music/?page=searchPage" alt="cbl"/>
                                 音乐下载小站
                                 </div>   
                             </div>
@@ -463,21 +485,44 @@
                   
                         </a>
                         <div class="item">
+                            <a target="_blank" href="https://www.sciping.com/">
+                                <div class="item">
+                                    <div class="logo">
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.sciping.com/" alt="cbl"/>
+                                    科塔学术
+                                    </div>   
+                                </div>
+                                </a>
                         <a target="_blank" href="http://www.hi138.com">
                             <div class="item">
                                 <div class="logo">
                                     <img src="http://www.hi138.com/favicon.ico" alt="cbl"/>
-                                论文免费下载
+                                论文免费
                                 </div>   
                             </div>
                             </a>
-                            <a target="_blank" href="https://www.guidebook.top/scihub/">
+                            <a target="_blank" href="http://www.sci-hub.ac.cn/">
                                 <div class="item">
                                     <div class="logo">
-                                        <img src="https://sci-hub.tf/favicon.ico" alt="cbl"/>
-                                    SCI-镜像
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=http://www.sci-hub.ac.cn/" alt="cbl"/>
+                                    文献小镇
                                     </div>   
                                 </div>
+                            </a> 
+                            <a target="_blank" href="https://www.scihub.net.cn/">
+                                <div class="item">
+                                    <div class="logo">
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.scihub.net.cn/" alt="cbl"/>
+                                    论文聚合
+                                    </div>   
+                                </div>
+                                <a target="_blank" href="https://sunyichen.cc/?i=53 ">
+                                    <div class="item">
+                                        <div class="logo">
+                                            <img src="https://tools.ly522.com/ico/favicon.php?url=https://sunyichen.cc/?i=53" alt="cbl"/>
+                                        知网账号
+                                        </div>   
+                                    </div>
                             </a> 
                             </div>
                             <div class="item"> 
@@ -500,16 +545,50 @@
                             <a target="_blank" href="https://www.jiumodiary.com/">
                                 <div class="item">
                                     <div class="logo">
-                                        <img src="http://shu.ziyuandi.cn/favicon.ico" alt="cbl"/>
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.jiumodiary.com" alt="cbl"/>
                                    鸠摩搜书
                                     </div>   
                                 </div>
                             </a>
+                            <a target="_blank" href="https://1fuli.club/4714/">
+                                <div class="item">
+                                    <div class="logo">
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=https://1fuli.club/4714/" alt="cbl"/>
+                                    电子书2
+                                    </div>   
+                                </div>
+                              </a>                            
+                            <a target="_blank" href="https://www.lib.pku.edu.cn/portal/">
+                                <div class="item">
+                                    <div class="logo">
+                                        <img src="https://www.pku.edu.cn/favicon.ico" alt="cbl"/>
+                                    北大图书检索
+                                    </div>   
+                                </div>
+                              </a>
                             </div> 
+                            <div class="item">
+                                <a target="_blank" href="https://www.hippter.com/">
+                                  <div class="item">
+                                      <div class="logo">
+                                          <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.hippter.com" alt="cbl"/>
+                                         ppt聚合
+                                       </div>
+                                   </div>
+                                </a> 
+                                <a target="_blank" href="https://www.officeplus.cn">
+                                  <div class="item">
+                                      <div class="logo">
+                                          <img src="https://z3.ax1x.com/2021/10/23/5gJx5d.png" alt="cbl"/>
+                                          微软免费
+                                       </div>
+                                   </div>
+                                </a> 
+                                </div>
                             <a target="_blank" href="https://www.100font.com/">
                                 <div class="item">
                                     <div class="logo">
-                                        <img src="https://www.100font.com/tupian/banner.png" alt="xqyr"/>
+                                        <img src="https://tools.ly522.com/ico/favicon.php?url=https://www.100font.com/" alt="xqyr"/>
                                    字体
                                     </div>   
                                 </div>
@@ -521,22 +600,6 @@
                                         网盘下载
                                     </div>
                              </div>
-                          </a>
-                          <a target="_blank" href="https://www.officeplus.cn">
-                            <div class="item">
-                                <div class="logo">
-                                    <img src="https://z3.ax1x.com/2021/10/23/5gJx5d.png" alt="cbl"/>
-                                    微软免费ppt下载
-                                 </div>
-                             </div>
-                          </a> 
-                          <a target="_blank" href="https://www.lib.pku.edu.cn/portal/">
-                            <div class="item">
-                                <div class="logo">
-                                    <img src="https://www.pku.edu.cn/favicon.ico" alt="cbl"/>
-                                北大图书检索
-                                </div>   
-                            </div>
                           </a>
                           <a target="_blank" href="https://www.thingiverse.com//">
                             <div class="item">

@@ -339,7 +339,7 @@ body {
 #menu-box #menu input[type=checkbox]:checked ~ .menu-spin > .line-2 {
     transform: rotate(-405deg);
     -webkit-transform: rotate(-405deg);
-    margin-top: -10px
+    margin-top: -20px
 }
 
 #menu-box #menu label {
