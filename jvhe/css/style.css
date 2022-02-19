@@ -22,7 +22,7 @@ body {
 }
 
 .container, .main, .container, body {
-    margin-left:0px;
+    margin-left:1%;
 }
 
 .iconfont {
@@ -253,50 +253,6 @@ body {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical
 }
-/*搜索*/
-.search-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-.search-btn {
-    color: #e84118;
-    float: right;
-    width: 10px;
-    height: 10px;
-    border-radius: 40%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    text-decoration: none;
-}
-.search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0;
-}
-.search-box:hover > .search-txt {
-    width: 100px;
-    padding: 0 6px;
-}
-.search-box:hover > .search-btn {
-    background: white;
-}
-
 #menu-box {
     display: none;
     width: 100%;
