@@ -15,7 +15,7 @@ body {
     font-size: 18px;
     color:#fef4b45e;
     font-family: Helvetica Neue, Microsoft Yahei;
-    background-image:url(https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109181237585.jpg);
+    background-image:url(https://z3.ax1x.com/2021/04/06/c39XZT.png);
     background-size: contain;
     /*background-repeat: no-repeat;*/
      
@@ -32,7 +32,7 @@ body {
 
 .container .left-bar {
     position: fixed;
-    background: rgb(17, 248, 17));
+  /*  background: rgb(17, 248, 17);*/
     color: #ebeef3;
     padding-left: 20px;
     box-sizing: border-box;
@@ -81,7 +81,7 @@ body {
 .container .main .iconfont {
     font-size: 18px;
     color: rgb(235, 20, 20)
-}rgb(39,42,56)
+}
 
 .set-scroll {
     background-color: #e60f0f;
@@ -211,10 +211,6 @@ body {
     float: left;
     overflow: hidden;
     transition: all .3s
-}
-
-.main .box .item:hover {
-    transform: translateY(-5px)
 }
 /*网站字体颜色*/
 .main .box .item .no-logo {
