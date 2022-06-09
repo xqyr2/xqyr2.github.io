@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="摩擦离合器, 小憩悠然">
+    <meta name="keywords" content="小憩悠然">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>摩擦离合器 | 小憩悠然</title>
+    <title>小憩悠然</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -348,12 +348,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">摩擦离合器</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -481,7 +481,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-02-19
+                    2022-05-19
                 </div>
                 
 
@@ -502,7 +502,19 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="markdown居中对齐，左对齐，右对齐"><a href="#markdown居中对齐，左对齐，右对齐" class="headerlink" title="markdown居中对齐，左对齐，右对齐"></a>markdown居中对齐，左对齐，右对齐</h2><p>Markdown语法本身没有居中，但Markdown中支持基本的HTMl语法，可以使用HTML语法。<br>居中：<br><code>&lt;center&gt;月是故乡明&lt;/center&gt;</code><br>左对齐：<br><code>&lt;p align=&quot;left&quot;&gt;月是故乡明&lt;/p&gt;</code><br>右对齐：<br><code>&lt;p align=&quot;right&quot;&gt;月是故乡明&lt;/p&gt;</code></p>
+                <h1 id="归一化"><a href="#归一化" class="headerlink" title="归一化"></a>归一化</h1><p>智能车为什么要归一化处理？</p>
+<p>在当时我也对电磁同时进行了差比和以及归一化的处理，后来发现在对中间电感进行差比和处理之后，实际产生的数值与原先差比和所产生的数值并无太大区别，遂放弃了继续归一化，全部采用了差比和的处理。</p>
+<p>差比：</p>
+<p>duty ＝ 750（中间值）</p>
+<p>duty ＝ duty ＋ （AIN7 － AIN1）</p>
+<p>归一化：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//该代码为网上所找的历程</span></span><br><span class="line">Sensor_Left =   <span class="built_in">analogRead</span>(<span class="number">1</span>);    <span class="comment">//左边电感采集值</span></span><br><span class="line">Sensor_Middle = <span class="built_in">analogRead</span>(<span class="number">2</span>);    <span class="comment">//中间电感采集值</span></span><br><span class="line">Sensor_Right =  <span class="built_in">analogRead</span>(<span class="number">3</span>);    <span class="comment">//右边电感采集值</span></span><br><span class="line"><span class="keyword">if</span> (Sensor_Left + Sensor_Middle + Sensor_Right &gt; <span class="number">25</span>)</span><br><span class="line">&#123;</span><br><span class="line">  sum = Sensor_Left * <span class="number">1</span> + Sensor_Middle * <span class="number">50</span> + Sensor_Right * <span class="number">99</span>; <span class="comment">//归一化处理</span></span><br><span class="line">  Sensor = sum / (Sensor_Left + Sensor_Middle + Sensor_Right);    <span class="comment">//求偏差</span></span><br><span class="line">&#125;</span><br><span class="line">Bias = Sensor - <span class="number">50</span>;                                               <span class="comment">//提取偏差</span></span><br><span class="line">Angle =Bias * <span class="number">0.65</span> + (Bias - Last_Bias) * <span class="number">0.1</span>;                    <span class="comment">//方向PID</span></span><br><span class="line"><span class="comment">//Angle = abs(Bias)*Bias * 0.02 + Bias * 0.074 + (Bias - Last_Bias) * 1;</span></span><br><span class="line">Last_Bias = Bias; <span class="comment">//上一次的偏差</span></span><br></pre></td></tr></table></figure>
+
+<p>这样的处理算法，其本质其实就是在每次车跑之前，<strong>重新快速校准</strong>偏差和电感值的对应关系。</p>
+<p>通过归一化处理，能保证电磁车有更强的适应性，适应更宽的赛道电源电流参数，而路径将不容易受电源的不同而影响。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">//电机控制</span></span><br><span class="line"> <span class="keyword">if</span>(SteerDutyRatio1&lt;<span class="number">1365</span>)</span><br><span class="line"><span class="comment">//      DF=(1470)/3;</span></span><br><span class="line">    MotorDutyRatio += <span class="built_in">IncPIDCalc</span>(count,Car_target_speed-DF);  <span class="comment">//计算出电机控制增量   -</span></span><br><span class="line">    MotorDutyRatio=MotorDutyRatio*<span class="number">1</span>-(MotorDutyRatio-Last_MotorDutyRatio)*<span class="number">0.4</span><span class="number">-1</span>*(count-L_count);</span><br><span class="line">  <span class="comment">//  MotorDutyRatio=MotorDutyRatio*0.7+Last_MotorDutyRatio*0.3-1*(count-L_count);</span></span><br><span class="line">      <span class="keyword">if</span>((MotorDutyRatio-Last_MotorDutyRatio)&gt;<span class="number">100</span>)      MotorDutyRatio=Last_MotorDutyRatio+<span class="number">100</span>;</span><br><span class="line">      <span class="keyword">if</span>((MotorDutyRatio-Last_MotorDutyRatio)&lt;<span class="number">-100</span>)     MotorDutyRatio=Last_MotorDutyRatio<span class="number">-100</span>;</span><br><span class="line">      L_count=count;</span><br><span class="line">    MotorDutyRatio1 += <span class="built_in">IncPIDCalc</span>(count1,Car_target_speed+DF);  <span class="comment">//计算出电机控制增量  +</span></span><br><span class="line">    MotorDutyRatio1=MotorDutyRatio1*<span class="number">1</span>-(MotorDutyRatio1-Last_MotorDutyRatio1)*<span class="number">0.3</span><span class="number">-1</span>*(count1-L_count1);</span><br><span class="line">   <span class="comment">// MotorDutyRatio1=MotorDutyRatio1*0.7+Last_MotorDutyRatio1*0.3-1*(count1-L_count1);</span></span><br><span class="line">     L_count1=count1;</span><br><span class="line">    <span class="keyword">if</span>((MotorDutyRatio1-Last_MotorDutyRatio1)&gt;<span class="number">100</span>) MotorDutyRatio1=Last_MotorDutyRatio1+<span class="number">100</span>;</span><br><span class="line">    <span class="keyword">if</span>((MotorDutyRatio1-Last_MotorDutyRatio1)&lt;<span class="number">-100</span>) MotorDutyRatio1=Last_MotorDutyRatio1<span class="number">-100</span>;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span>(MotorDutyRatio &gt;<span class="number">900</span>)   MotorDutyRatio = <span class="number">900</span>; <span class="comment">//电机控制量限幅</span></span><br><span class="line">      <span class="keyword">if</span>(MotorDutyRatio &lt;<span class="number">100</span>)   MotorDutyRatio = <span class="number">100</span>;</span><br><span class="line">      <span class="keyword">if</span>(MotorDutyRatio1&gt;<span class="number">900</span>)  MotorDutyRatio1 = <span class="number">900</span>;<span class="comment">//电机控制量限幅</span></span><br><span class="line">      <span class="keyword">if</span>(MotorDutyRatio1&lt;<span class="number">100</span>)  MotorDutyRatio1 = <span class="number">100</span>;</span><br><span class="line">       <span class="built_in">Left__P_motor_pwm</span>(MotorDutyRatio1);</span><br><span class="line">       <span class="built_in">Right_P_motor_pwm</span>(MotorDutyRatio);</span><br><span class="line">       Last_MotorDutyRatio=MotorDutyRatio;</span><br><span class="line">       Last_MotorDutyRatio1=MotorDutyRatio1;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>80:/＄27s</p>
 
                 
             </div>
@@ -529,7 +541,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/02/19/25118.html">http://example.com/2022/02/19/25118.html</a>
+                    <a href="http://example.com/2022/05/19/1.html">http://example.com/2022/05/19/1.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -738,13 +750,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/05/19/1.html">
+                <a href="/2022/05/19/25119.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="智能小车">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">智能小车</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -775,13 +787,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/01/24/12972.html">
+                <a href="/2022/02/19/25118.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="蓝桥杯问题">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="摩擦离合器">
                         
-                        <span class="card-title">蓝桥杯问题</span>
+                        <span class="card-title">摩擦离合器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -792,27 +804,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-19
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%8D%95%E7%89%87%E6%9C%BA/" class="post-category">
-                                    单片机
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            小熊大大
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF-%E9%A9%B1%E5%8A%A8/">
-                        <span class="chip bg-color">-蓝桥杯 -驱动</span>
-                    </a>
-                    
                 </div>
                 
             </div>
