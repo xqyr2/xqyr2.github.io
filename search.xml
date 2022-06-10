@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>发动机原理-参数篇</title>
-    <url>/2021/10/11/16575.html</url>
-    <content><![CDATA[]]></content>
+    <title>变速器认识</title>
+    <url>/2021/09/29/36547.html</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291711188.png" alt="变速器认识"></p>
+<h1 id="变速器"><a href="#变速器" class="headerlink" title="变速器"></a>变速器</h1><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><h3 id="操纵机构"><a href="#操纵机构" class="headerlink" title="操纵机构"></a>操纵机构</h3><h4 id="远距离换挡"><a href="#远距离换挡" class="headerlink" title="远距离换挡"></a>远距离换挡</h4><p>在有些汽车上，由于变速器离驾驶员座位较远，则需要在<font color='cornflowerblue'>变速杆</font>与<font color='cornflowerblue'>拨叉</font>之间加装一些<font color='cornflowerblue'>辅助杠杆</font>或<font color='cornflowerblue'>一套传动机构</font>，构成远距离操纵机构。这种操纵机构多用于发动机<font color='cornflowerblue'>前置前轮驱动</font>的汽车，如桑塔纳2000汽车的五档手动变速器，由于其变速器安装在前驱动桥处，远离驾驶员座椅，需要采用这种操纵方式，如图3－42所示。</p>
+<p align="right"><font color='orange'>--- 《手动变速器换挡结构图》</font></p>
+
+<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291934266.jpeg" alt="手动变速器换挡机构结构图"></p>
+<h3 id="安全装置"><a href="#安全装置" class="headerlink" title="安全装置"></a>安全装置</h3><p><font color='cornflowerblue'>自锁装置</font>都是采用自锁钢球对拨叉轴进行<font color='cornflowerblue'>轴向定位</font>锁止<br><font color='cornflowerblue'>互锁装置</font>用于防止同时挂上两个档位。如图3－46所示，互锁装置由互锁钢球和互锁销组成。<br><font color='cornflowerblue'>倒档锁</font>装置用于防止误挂倒档</p>
+<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291955435.jpeg" alt="手动变速器换挡机构结构图"></p>
+<p align="right"><font color='orange'>--- 《手动变速器换挡结构图》</font></p>
+
+<h2 id="参考连接"><a href="#参考连接" class="headerlink" title="参考连接"></a>参考连接</h2><p><a href="https://www.qcwxjs.com/shoudongbianshuqi/12391.html">手动变速器换挡机构结构图</a></p>
+]]></content>
       <categories>
-        <category>发动机原理</category>
+        <category>汽车构造</category>
       </categories>
       <tags>
         <tag>汽车构造</tag>
-        <tag>发动机</tag>
+        <tag>变速器</tag>
       </tags>
   </entry>
   <entry>
@@ -19,32 +29,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>智能小车</title>
-    <url>/2022/05/19/25119.html</url>
-    <content><![CDATA[<p><a href="%E5%BD%92%E4%B8%80%E5%8C%96/%E5%BD%92%E4%B8%80%E5%8C%96.md" title="归一化">归一化</a></p>
-<p>水平电感线圈对较远处道路状况相对比较敏感。水平方向的传感器对<strong>前方弯道非常敏感</strong>,有利于提前感知跑道的变化趋势,及早做出准确的控制策略。</p>
-<p>比列K：本文以偏差的二次幂作为比例系数来达到上述目的</p>
-<p>根据两水平电感的和值与差值可以比较容易判断小车在赛道所处的位置</p>
-<p>为提高小车平均速度，使其在较短的时间内完成预定的赛道，速度控制至关重要</p>
-<p><img src="image/%E7%94%B5%E7%A3%81_pMnL-18-H8.jpg"></p>
-<p>为了保证“小曲率弯道使用较小的Kp,大曲率弯道相应地使用较大的Kp”的原则,本文以<strong>偏差的二次幂</strong>作为比例系数来达到上述目的。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>蓝桥杯问题</title>
-    <url>/2022/01/24/12972.html</url>
-    <content><![CDATA[<h2 id="大家好，我想问个事情。比赛的时候驱动会出问题吗"><a href="#大家好，我想问个事情。比赛的时候驱动会出问题吗" class="headerlink" title="大家好，我想问个事情。比赛的时候驱动会出问题吗"></a>大家好，我想问个事情。比赛的时候驱动会出问题吗</h2><h2 id="我在网上找了一个2021数据包。下面这个。"><a href="#我在网上找了一个2021数据包。下面这个。" class="headerlink" title="我在网上找了一个2021数据包。下面这个。"></a>我在网上找了一个2021数据包。下面这个。</h2><p><img src="C:/Users/add/AppData/Roaming/Typora/typora-user-images/image-20220124135435397.png" alt="image-20220124135435397"></p>
-<h2 id="但是我发现他的驱动有点问题。ds18b20他是这么写的"><a href="#但是我发现他的驱动有点问题。ds18b20他是这么写的" class="headerlink" title="但是我发现他的驱动有点问题。ds18b20他是这么写的"></a>但是我发现他的驱动有点问题。ds18b20他是这么写的</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  程序说明: 单总线驱动程序</span></span><br><span class="line"><span class="comment">  软件环境: Keil uVision 4.10 </span></span><br><span class="line"><span class="comment">  硬件环境: CT107单片机综合实训平台(外部晶振12MHz) STC89C52RC单片机</span></span><br><span class="line"><span class="comment">  日    期: 2011-8-9</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;reg52.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">sbit DQ = P1^<span class="number">4</span>;  <span class="comment">//单总线接口</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//单总线延时函数</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Delay_OneWire</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">int</span> t)</span>  <span class="comment">//STC89C52RC</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span>(t--);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//通过单总线向DS18B20写一个字节</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Write_DS18B20</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> dat)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> i;</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		DQ = <span class="number">0</span>;</span><br><span class="line">		DQ = dat&amp;<span class="number">0x01</span>;</span><br><span class="line">		Delay_OneWire(<span class="number">5</span>);<span class="comment">//有问题</span></span><br><span class="line">		DQ = <span class="number">1</span>;</span><br><span class="line">		dat &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	Delay_OneWire(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//从DS18B20读取一个字节</span></span><br><span class="line"><span class="function"><span class="keyword">unsigned</span> <span class="keyword">char</span> <span class="title">Read_DS18B20</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> i;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> dat;</span><br><span class="line">  </span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		DQ = <span class="number">0</span>;</span><br><span class="line">		dat &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">		DQ = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">if</span>(DQ)</span><br><span class="line">		&#123;</span><br><span class="line">			dat |= <span class="number">0x80</span>;</span><br><span class="line">		&#125;	    </span><br><span class="line">		Delay_OneWire(<span class="number">5</span>);<span class="comment">//有问题</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> dat;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//DS18B20设备初始化</span></span><br><span class="line"><span class="function">bit <span class="title">init_ds18b20</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  	bit initflag = <span class="number">0</span>;</span><br><span class="line">  	</span><br><span class="line">  	DQ = <span class="number">1</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">60</span>);</span><br><span class="line">  	DQ = <span class="number">0</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">480</span>);</span><br><span class="line">  	DQ = <span class="number">1</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">120</span>); </span><br><span class="line">    initflag = DQ;     </span><br><span class="line">  	Delay_OneWire(<span class="number">5</span>);</span><br><span class="line">  </span><br><span class="line">  	<span class="keyword">return</span> initflag;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="他读和写的延迟时间不对"><a href="#他读和写的延迟时间不对" class="headerlink" title="他读和写的延迟时间不对"></a>他读和写的延迟时间不对</h2><p><img src="E:/Pictures/Saved%20Pictures/%E8%93%9D%E6%A1%A5%E6%9D%AF/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-01-24%20135205.jpg" alt="屏幕截图 2022-01-24 135205"></p>
-<h2 id="所以考试的时候，给的驱动会出这种类似的问题吗？"><a href="#所以考试的时候，给的驱动会出这种类似的问题吗？" class="headerlink" title="所以考试的时候，给的驱动会出这种类似的问题吗？"></a>所以考试的时候，给的驱动会出这种类似的问题吗？</h2>]]></content>
+    <title>发动机原理-参数篇</title>
+    <url>/2021/10/11/16575.html</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>单片机</category>
+        <category>发动机原理</category>
       </categories>
       <tags>
-        <tag>-蓝桥杯 -驱动</tag>
+        <tag>汽车构造</tag>
+        <tag>发动机</tag>
       </tags>
   </entry>
   <entry>
@@ -70,37 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>变速器认识</title>
-    <url>/2021/09/29/36547.html</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291711188.png" alt="变速器认识"></p>
-<h1 id="变速器"><a href="#变速器" class="headerlink" title="变速器"></a>变速器</h1><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><h3 id="操纵机构"><a href="#操纵机构" class="headerlink" title="操纵机构"></a>操纵机构</h3><h4 id="远距离换挡"><a href="#远距离换挡" class="headerlink" title="远距离换挡"></a>远距离换挡</h4><p>在有些汽车上，由于变速器离驾驶员座位较远，则需要在<font color='cornflowerblue'>变速杆</font>与<font color='cornflowerblue'>拨叉</font>之间加装一些<font color='cornflowerblue'>辅助杠杆</font>或<font color='cornflowerblue'>一套传动机构</font>，构成远距离操纵机构。这种操纵机构多用于发动机<font color='cornflowerblue'>前置前轮驱动</font>的汽车，如桑塔纳2000汽车的五档手动变速器，由于其变速器安装在前驱动桥处，远离驾驶员座椅，需要采用这种操纵方式，如图3－42所示。</p>
-<p align="right"><font color='orange'>--- 《手动变速器换挡结构图》</font></p>
-
-<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291934266.jpeg" alt="手动变速器换挡机构结构图"></p>
-<h3 id="安全装置"><a href="#安全装置" class="headerlink" title="安全装置"></a>安全装置</h3><p><font color='cornflowerblue'>自锁装置</font>都是采用自锁钢球对拨叉轴进行<font color='cornflowerblue'>轴向定位</font>锁止<br><font color='cornflowerblue'>互锁装置</font>用于防止同时挂上两个档位。如图3－46所示，互锁装置由互锁钢球和互锁销组成。<br><font color='cornflowerblue'>倒档锁</font>装置用于防止误挂倒档</p>
-<p><img src="https://cdn.jsdelivr.net/gh/xqyr2/img@main/202109291955435.jpeg" alt="手动变速器换挡机构结构图"></p>
-<p align="right"><font color='orange'>--- 《手动变速器换挡结构图》</font></p>
-
-<h2 id="参考连接"><a href="#参考连接" class="headerlink" title="参考连接"></a>参考连接</h2><p><a href="https://www.qcwxjs.com/shoudongbianshuqi/12391.html">手动变速器换挡机构结构图</a></p>
-]]></content>
-      <categories>
-        <category>汽车构造</category>
-      </categories>
-      <tags>
-        <tag>汽车构造</tag>
-        <tag>变速器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汽油机电控喷油技术</title>
-    <url>/2021/09/29/10113.html</url>
-    <content><![CDATA[<h2 id="供气系统"><a href="#供气系统" class="headerlink" title="供气系统"></a>供气系统</h2><ul>
-<li>旁通式供气系统：设置有旁通空气道，发动机怠速进气量由怠速控制阀控制的空气供给系统</li>
-<li>没有旁通空气道，发动机怠速进气量由节气门直接控制的空气供给系统</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>愿</title>
     <url>/2021/08/14/18371.html</url>
     <content><![CDATA[<center>
@@ -119,6 +81,27 @@
       <tags>
         <tag>落日飘绪</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>智能小车</title>
+    <url>/2022/05/19/25119.html</url>
+    <content><![CDATA[<p><a href="%E5%BD%92%E4%B8%80%E5%8C%96/%E5%BD%92%E4%B8%80%E5%8C%96.md" title="归一化">归一化</a></p>
+<p>水平电感线圈对较远处道路状况相对比较敏感。水平方向的传感器对<strong>前方弯道非常敏感</strong>,有利于提前感知跑道的变化趋势,及早做出准确的控制策略。</p>
+<p>比列K：本文以偏差的二次幂作为比例系数来达到上述目的</p>
+<p>根据两水平电感的和值与差值可以比较容易判断小车在赛道所处的位置</p>
+<p>为提高小车平均速度，使其在较短的时间内完成预定的赛道，速度控制至关重要</p>
+<p><img src="image/%E7%94%B5%E7%A3%81_pMnL-18-H8.jpg"></p>
+<p>为了保证“小曲率弯道使用较小的Kp,大曲率弯道相应地使用较大的Kp”的原则,本文以<strong>偏差的二次幂</strong>作为比例系数来达到上述目的。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>汽油机电控喷油技术</title>
+    <url>/2021/09/29/10113.html</url>
+    <content><![CDATA[<h2 id="供气系统"><a href="#供气系统" class="headerlink" title="供气系统"></a>供气系统</h2><ul>
+<li>旁通式供气系统：设置有旁通空气道，发动机怠速进气量由怠速控制阀控制的空气供给系统</li>
+<li>没有旁通空气道，发动机怠速进气量由节气门直接控制的空气供给系统</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>“网站聚合”</title>
@@ -187,6 +170,23 @@
 <p><strong>28. GLOBAL GREY 神秘小说</strong></p>
 <p><a href="https://www.globalgreyebooks.com/index.html">https://www.globalgreyebooks.com/index.html</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>蓝桥杯问题</title>
+    <url>/2022/01/24/12972.html</url>
+    <content><![CDATA[<h2 id="大家好，我想问个事情。比赛的时候驱动会出问题吗"><a href="#大家好，我想问个事情。比赛的时候驱动会出问题吗" class="headerlink" title="大家好，我想问个事情。比赛的时候驱动会出问题吗"></a>大家好，我想问个事情。比赛的时候驱动会出问题吗</h2><h2 id="我在网上找了一个2021数据包。下面这个。"><a href="#我在网上找了一个2021数据包。下面这个。" class="headerlink" title="我在网上找了一个2021数据包。下面这个。"></a>我在网上找了一个2021数据包。下面这个。</h2><p><img src="C:/Users/add/AppData/Roaming/Typora/typora-user-images/image-20220124135435397.png" alt="image-20220124135435397"></p>
+<h2 id="但是我发现他的驱动有点问题。ds18b20他是这么写的"><a href="#但是我发现他的驱动有点问题。ds18b20他是这么写的" class="headerlink" title="但是我发现他的驱动有点问题。ds18b20他是这么写的"></a>但是我发现他的驱动有点问题。ds18b20他是这么写的</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  程序说明: 单总线驱动程序</span></span><br><span class="line"><span class="comment">  软件环境: Keil uVision 4.10 </span></span><br><span class="line"><span class="comment">  硬件环境: CT107单片机综合实训平台(外部晶振12MHz) STC89C52RC单片机</span></span><br><span class="line"><span class="comment">  日    期: 2011-8-9</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;reg52.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">sbit DQ = P1^<span class="number">4</span>;  <span class="comment">//单总线接口</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//单总线延时函数</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Delay_OneWire</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">int</span> t)</span>  <span class="comment">//STC89C52RC</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span>(t--);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//通过单总线向DS18B20写一个字节</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Write_DS18B20</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">char</span> dat)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> i;</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		DQ = <span class="number">0</span>;</span><br><span class="line">		DQ = dat&amp;<span class="number">0x01</span>;</span><br><span class="line">		Delay_OneWire(<span class="number">5</span>);<span class="comment">//有问题</span></span><br><span class="line">		DQ = <span class="number">1</span>;</span><br><span class="line">		dat &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	Delay_OneWire(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//从DS18B20读取一个字节</span></span><br><span class="line"><span class="function"><span class="keyword">unsigned</span> <span class="keyword">char</span> <span class="title">Read_DS18B20</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> i;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">char</span> dat;</span><br><span class="line">  </span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		DQ = <span class="number">0</span>;</span><br><span class="line">		dat &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">		DQ = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">if</span>(DQ)</span><br><span class="line">		&#123;</span><br><span class="line">			dat |= <span class="number">0x80</span>;</span><br><span class="line">		&#125;	    </span><br><span class="line">		Delay_OneWire(<span class="number">5</span>);<span class="comment">//有问题</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> dat;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//DS18B20设备初始化</span></span><br><span class="line"><span class="function">bit <span class="title">init_ds18b20</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  	bit initflag = <span class="number">0</span>;</span><br><span class="line">  	</span><br><span class="line">  	DQ = <span class="number">1</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">60</span>);</span><br><span class="line">  	DQ = <span class="number">0</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">480</span>);</span><br><span class="line">  	DQ = <span class="number">1</span>;</span><br><span class="line">  	Delay_OneWire(<span class="number">120</span>); </span><br><span class="line">    initflag = DQ;     </span><br><span class="line">  	Delay_OneWire(<span class="number">5</span>);</span><br><span class="line">  </span><br><span class="line">  	<span class="keyword">return</span> initflag;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="他读和写的延迟时间不对"><a href="#他读和写的延迟时间不对" class="headerlink" title="他读和写的延迟时间不对"></a>他读和写的延迟时间不对</h2><p><img src="E:/Pictures/Saved%20Pictures/%E8%93%9D%E6%A1%A5%E6%9D%AF/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-01-24%20135205.jpg" alt="屏幕截图 2022-01-24 135205"></p>
+<h2 id="所以考试的时候，给的驱动会出这种类似的问题吗？"><a href="#所以考试的时候，给的驱动会出这种类似的问题吗？" class="headerlink" title="所以考试的时候，给的驱动会出这种类似的问题吗？"></a>所以考试的时候，给的驱动会出这种类似的问题吗？</h2>]]></content>
+      <categories>
+        <category>单片机</category>
+      </categories>
+      <tags>
+        <tag>-蓝桥杯 -驱动</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
